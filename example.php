@@ -6,11 +6,11 @@ require_once 'cookie.php';
 require_once 'encrypt.php';
 
 
-    //set cokkie
+    //set cookie
     Cookie::set("author","baris");
     
     
-    //delete cokkie if it is set
+    //delete cookie if it is set
     Cookie::delete("name");
     
     //get information from if it is set
